@@ -36,8 +36,7 @@ z **https://status.dsh.yt/status/dsh** (instancja Uptime Kuma).
 4. W Android Studio wybierz swój zegarek jako urządzenie docelowe (górny pasek) i kliknij **Run ▶**.
 5. Aplikacja "DSH Status" zainstaluje się i uruchomi na zegarku.
 
-Alternatywnie: **Build → Build Bundle(s) / APK(s) → Build APK(s)**, znajdziesz gotowy
-plik `.apk` w `app/build/outputs/apk/debug/` i zainstalujesz go ręcznie przez `adb install`.
+Alternatywnie: **Build → Build Bundle(s) / APK(s) → Build APK(s)** (lub zmień wariant na `release` w karcie *Build Variants*), znajdziesz zoptymalizowany plik `.apk` w `app/build/outputs/apk/release/app-release.apk` (o małym rozmiarze ~3–5 MB) i zainstalujesz go ręcznie przez `adb install`.
 
 ## Struktura projektu
 
