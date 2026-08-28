@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "yt.dsh.statuswear"
-    compileSdk = 34
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "yt.dsh.statuswear"
         minSdk = 30 // Wear OS 3+
-        targetSdk = 34
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
     }
