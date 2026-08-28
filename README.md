@@ -3,6 +3,8 @@
 Natywna aplikacja Wear OS (Kotlin + Jetpack Compose for Wear) pokazująca stan usług
 z **https://status.dsh.yt/status/dsh** (instancja Uptime Kuma).
 
+<img width="454" height="454" alt="obraz" src="https://github.com/user-attachments/assets/dc0daee7-ff73-45c0-aa7f-30088745f285" />
+
 ## Co robi
 
 - Ekran główny: duży wskaźnik ogólnego stanu (zielony = wszystko OK, czerwony = awaria)
@@ -64,3 +66,10 @@ app/src/main/java/yt/dsh/statuswear/
 Jeśli `status.dsh.yt` kiedyś zacznie wymagać logowania (obecnie strona jest publiczna),
 API przestanie zwracać dane bez tokenu — trzeba by dodać obsługę autoryzacji w
 `StatusRepository.kt`.
+
+## Screenshoty
+<img width="454" height="454" alt="obraz" src="https://github.com/user-attachments/assets/5bb04627-f9bb-4597-ae14-952ae793a414" /> <br />
+
+<img width="454" height="454" alt="obraz" src="https://github.com/user-attachments/assets/1d866190-e9a9-47f1-b376-fc8e4054c31e" /> <br />
+
+<img width="454" height="454" alt="obraz" src="https://github.com/user-attachments/assets/2efd7442-f652-4b3c-88a5-e2351c5173aa" />
