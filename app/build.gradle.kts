@@ -13,7 +13,7 @@ android {
         minSdk = 30 // Wear OS 3+
         targetSdk = 36
         versionCode = 1
-        versionName = "1.0"
+        versionName = "1.0.0"
     }
 
     buildTypes {
@@ -43,6 +43,15 @@ android {
 
     composeOptions {
         kotlinCompilerExtensionVersion = "1.5.14"
+    }
+
+    applicationVariants.all {
+        outputs.all {
+            val apkOutput = this as? com.android.build.gradle.api.ApkVariantOutput
+            val abi = apkOutput?.filters?.find { it.filterType == "ABI" }?.identifier ?: "universal"
+            apkOutput?.outputFileName =
+                "${applicationId}-wearos-v${versionName}-${abi}-${buildType.name}.apk"
+        }
     }
 }
 
