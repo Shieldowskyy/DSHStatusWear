@@ -532,7 +532,7 @@ private fun AboutDialog(onDismiss: () -> Unit) {
 
             item {
                 Text(
-                    text = "Aplikacja została wykonana przez Shieldziak przy pomocy narzędzi AI, Claude oraz Gemini.",
+                    text = "Aplikacja została wykonana przez Shieldziaka przy pomocy narzędzi AI, Claude oraz Gemini.",
                     fontSize = 12.sp,
                     textAlign = TextAlign.Center,
                     color = TextSecondary,
